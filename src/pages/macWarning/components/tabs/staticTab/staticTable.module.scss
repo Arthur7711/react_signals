@@ -1,0 +1,38 @@
+.tableContainer {
+  thead tr th {
+    line-height: 0px;
+    color: #576b8b;
+    width: 250px;
+  }
+  tbody tr td {
+    padding: 8px;
+    height: 56px;
+    max-height: 56px;
+    min-height: 56px;
+    width: 250px;
+    line-height: 100%;
+    word-break: break-word;
+    overflow: hidden;
+  }
+}
+label {
+  padding: 0px 8px;
+  height: 36px;
+  border-radius: 6px;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #cfd5dd;
+  img {
+    cursor: pointer;
+  }
+  input {
+    border: none;
+    outline: none;
+    color: #8393a9;
+    &::placeholder {
+      color: #8393a9;
+    }
+  }
+}

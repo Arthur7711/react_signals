@@ -1,0 +1,12 @@
+@mixin custom-scroll($width: 10px, $height: 8px) {
+  &::-webkit-scrollbar {
+    width: $width;
+    height: $height;
+    background-color: #f1f1f1;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(102, 102, 102, 0.2);
+    border-radius: 5px;
+  }
+}
